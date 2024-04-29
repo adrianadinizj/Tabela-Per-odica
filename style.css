@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(to bottom, rgb(191, 158, 158), pink);
+    }
+
+.titulo {
+    text-align: center;
+    color: blue;
+
+}
+h5{
+    text-align:right;
+}
+h3,h4 {
+    text-align:center;
+}
+
+th.horizontal {
+    padding: 2px;
+    font: 16px;
+    cursor: pointer;
+}
+
+td.azul{
+    color: aliceblue;
+    font: 16px;
+    background-color: rgb(83, 126, 186);
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s
+    }
+td.azul:hover{
+    transform: scale(1.1);
+    background-color: rgb(13, 47, 241);
+    outline: 1px solid rgb(9, 98, 223);
+}
+
+td.vazio{
+    padding: 50px;
+
+}
+td.amarelo {
+    color: rgb(17, 87, 149);
+    font: 16px;
+    background-color: rgb(255, 255, 0);
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s
+    
+}
+td.amarelo:hover{
+    transform: scale(1.1);
+}
+td.roxo {
+
+    padding: 2px;
+    background-color: blueviolet;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s
+}
+td.roxo:hover{
+    transform: scale(1.1);
+}
+
+td.rosa {
+    padding: 2px;
+    background-color: rgb(187, 19, 126);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s
+}
+td.rosa:hover{
+    transform: scale(1.1);
+}
+td.verde {
+    padding: 2px;
+    background-color: rgb(36, 238, 50);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s
+}
+td.verde:hover{
+    transform: scale(1.1);
+}
+td.Blue {
+    padding: 2px;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s
+}
+td.Blue:hover{
+    transform: scale(1.1);
+}
+td.Laranja {
+    padding: 2px;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s
+}
+td.Laranja:hover{
+    transform: scale(1.1);
+}
+td.orange {
+    padding: 2px;
+    background-color: orangered;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s
+}
+td.orange:hover{
+    transform: scale(1.1);
+}
+td.vermelho {
+    padding: 2px;
+    font-family: 16px;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s
+
+}
+td.vermelho:hover{
+    transform: scale(1.1);
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
